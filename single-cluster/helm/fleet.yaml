@@ -4,7 +4,8 @@
 # The namespace this chart will be installed and restricted to,
 # if not specified the chart will be installed to "default"
 defaultNamespace: kourosh-ns
-
+labels:
+  a=b
 # Custom helm options
 helm:
   # The release name to use. If empty a generated release name will be used
