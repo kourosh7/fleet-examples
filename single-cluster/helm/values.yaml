@@ -1,3 +1,5 @@
+labels:
+  a: b
 replication: true
 replicas: 1
 serviceType: NodePort
