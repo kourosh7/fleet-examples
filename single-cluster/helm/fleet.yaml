@@ -7,7 +7,7 @@ defaultNamespace: kourosh-ns
 name: kouroshgr1
 labels:
   name: kourosh
-  x: y
+  flavor: km7
 # Custom helm options
 helm:
   # The release name to use. If empty a generated release name will be used
