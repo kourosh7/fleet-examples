@@ -8,6 +8,7 @@ name: kouroshgr1
 labels:
   name: kourosh
   flavor: km7
+  another: "label"
 # Custom helm options
 helm:
   # The release name to use. If empty a generated release name will be used
