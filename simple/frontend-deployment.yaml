@@ -6,6 +6,7 @@ metadata:
     ui: visual
     another: label
     label3: label3
+    label4: label4
 spec:
   selector:
     matchLabels:
