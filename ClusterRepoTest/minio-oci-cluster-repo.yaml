@@ -1,0 +1,7 @@
+apiVersion: catalog.cattle.io/v1
+kind: ClusterRepo
+metadata:
+  name: minio
+spec:
+  insecurePlainHttp: false
+  url: oci://registry-1.docker.io/bitnamicharts/minio
