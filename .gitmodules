@@ -1,0 +1,3 @@
+[submodule "git-submodule-test-for-fleet"]
+	path = git-submodule-test-for-fleet
+	url = https://github.com/kourosh7/git-submodule-test-for-fleet.git
