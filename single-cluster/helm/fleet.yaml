@@ -36,7 +36,8 @@ helm:
   values:
     replicas: 2
 targetCustomizations:
-  clusterName: monitoring
-  clusterSelector:
-    matchLabels:
-      env: prod
+  - name: prod
+    clusterName: monitoring
+    clusterSelector:
+      matchLabels:
+        env: prod
