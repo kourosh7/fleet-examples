@@ -1,0 +1,6 @@
+namespace: fleet-deployed-logging
+
+overrideTargets:
+  - clusterGroupSelector:
+      matchLabels:
+        monitoring: enabled
