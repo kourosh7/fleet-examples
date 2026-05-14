@@ -35,9 +35,7 @@ helm:
   # Custom values that will be passed as values.yaml to the installation
   values:
     replicas: 2
-targetCustomizations:
-  - name: prod
-    clusterName: monitoring
-    clusterSelector:
+overrideTargets:
+  - clusterGroupSelector:
       matchLabels:
-        env: prod
+        single-cluster-helm: enabled
