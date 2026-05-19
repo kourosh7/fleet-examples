@@ -11,4 +11,4 @@ targetCustomizations:
       matchLabels:
         env: test
     kustomize:
-      dir: ""
+      dir: synthetic-files
