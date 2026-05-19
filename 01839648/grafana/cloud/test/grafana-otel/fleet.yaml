@@ -1,0 +1,14 @@
+name: helm-grafana-otel
+defaultNamespace: grafana-otel
+
+targetCustomizations:
+  - name: digitalbanking-stage
+    clusterName: digitalbanking-stage # Target a specific cluster by its name
+    clusterSelector:
+      matchLabels:
+        env: test
+    helm:
+      repo: https://open-telemetry.github.io/opentelemetry-helm-charts
+      chart: opentelemetry-operator
+      releaseName: open-telemetry
+      version: 0.112.1
