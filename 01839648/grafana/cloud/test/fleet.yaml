@@ -1,0 +1,14 @@
+name: grafana-synthetic-agent
+defaultNamespace: synthetic-monitoring
+#dependsOn:
+#  - name: helm-grafana
+
+
+targetCustomizations:
+  - name: monitoring
+    clusterName: monitoring # Target a specific cluster by its name
+    clusterSelector:
+      matchLabels:
+        env: test
+    kustomize:
+      dir: synthetic-files
